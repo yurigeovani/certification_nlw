@@ -18,7 +18,7 @@ public class PrimeiraController {
 
     @PostMapping("/meuPrimeiroPost")
     public String primeiroPost(){
-        return "Meu primeiro POST";
+        return "Meu primeiro POST!";
     }
 
     record Usuario(String nome, int idade){}

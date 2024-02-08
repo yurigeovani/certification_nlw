@@ -3,7 +3,6 @@ package com.ygtech.certification_nlw.modules.students.entities;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-import org.aspectj.weaver.patterns.TypePatternQuestions.Question;
 import org.hibernate.annotations.CreationTimestamp;
 
 import jakarta.persistence.Column;

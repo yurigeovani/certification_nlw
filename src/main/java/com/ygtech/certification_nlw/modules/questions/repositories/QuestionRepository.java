@@ -9,5 +9,5 @@ import com.ygtech.certification_nlw.modules.questions.entities.QuestionEntity;
 
 public interface QuestionRepository extends JpaRepository<QuestionEntity, UUID>{
     
-    List<QuestionEntity> findByTechnology(String technology);
+    List<QuestionEntity> findByTechnology(String string);
 }
